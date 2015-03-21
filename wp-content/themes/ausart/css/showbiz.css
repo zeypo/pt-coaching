@@ -1,0 +1,325 @@
+/******************************
+	-	SHOWBIZ PRO STYLES	-
+
+
+	Created By ThemePunch
+	www.themepunch.com
+
+	Release Date: 27.02.2013
+********************************/
+
+
+/**************************************
+	-	BASIC STYLING FOR CONTENTS	-
+***************************************/
+
+
+		.showbiz					{	position:relative;}
+
+
+
+		@media only screen and (min-width: 768px) and (max-width: 979px) {
+				}
+
+		@media only screen and (max-width: 767px) {
+			.sb_one_half,
+			.sb_one_third,
+			.sb_two_third,
+			.sb_one_fourth,
+			.sb_one_fifth,
+			.sb_one_sixth,
+			.sb_two_fifth,
+			.sb_three_fifth		{ width: 100%; margin-bottom:30px;}
+			.sb_lastcolumn			{	margin-bottom:0px;}
+			.sb_mobilecentered		{	text-align:center;}
+		}
+
+		.sb-clear				{	clear:both}
+
+
+
+/**************************************************
+	-	THE BASIC CONTAINER SETTINGS	-
+	NO NEED TO MODIFICATE ANYTHIN HERE
+
+	ALL DETAIL SETTINGS CAN BE SET VIA THE SKINS
+**************************************************/
+
+
+
+		.showbiz ul, .showbiz li						{	list-style: none; margin:0; padding:0; }
+		.showbiz ul li									{	position:relative; -webkit-transform: translateZ(10);
+																-webkit-backface-visibility: hidden;
+																-webkit-perspective: 1000;
+																margin-right:15px;
+														}
+		.showbiz .overflowholder 						{	overflow: hidden;position: relative;width: 100%; z-index:2}
+
+		.showbiz .overflowholder ul 					{		width:100000px; position: absolute;	top: 0px; left: 0px; }
+
+		.showbiz .overflowholder ul li 					{		float: left !important;
+																-webkit-transition: all 0.25s ease;
+																-moz-transition: all 0.25s ease-in-out;
+																-o-transition: all 0.25s ease-in-out;
+																-ms-transition: all 0.25s ease-in-out;
+																transition: all 0.25s ease-in-out;
+																position:relative;
+														}
+
+
+		.showbiz .mediaholder							{ 	position:relative; box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box; background:transparent;padding:0px; border:none;}
+		.showbiz .mediaholder_innerwrap					{	position:relative; overflow:hidden; width:100%; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+		.showbiz .mediaholder img 						{	width:100%; position:relative; margin-bottom:-5px;}
+
+
+		.showbiz .hovercover							{		width:100%;height:100%; position:absolute; top:0px; left:0px; background-color:#52bde9;background-color:rgba(82,189,233,0.85);
+																-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;
+																-moz-opacity:0; filter:alpha(opacity=0); opacity:0;
+																-webkit-transform: translateZ(10);
+																-webkit-backface-visibility: hidden;
+																-webkit-perspective: 1000;
+														}
+
+		.showbiz li:hover .hovercover			  		{		-moz-opacity:0.85; filter:alpha(opacity=85); opacity:0.85;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+	-	THE MODERN FULLWIDTH SKIN EXTRAS   -
+**************************************************/
+
+.showbiz.sb-modern-skin	ul										{	background:#000;}
+.showbiz ul li.sb-modern-skin									{	margin-right:0px;}
+
+
+
+.sb-modern-skin .darkhover										{	position:absolute; top:0px; left:0px; width:100%;height:100%;
+																	background:rgba(0,0,0,0);
+																	-webkit-transition: all 0.2s ease-out;
+																	-moz-transition: all 0.2s ease-out;
+																	-o-transition: all 0.2s ease-out;
+																	-ms-transition: all 0.2s ease-out;
+																}
+
+.sb-modern-skin .detailholder									{  position: absolute;
+																	bottom: 0px;
+																	background:#000;
+																	background: rgba(0,0,0,0.65);
+																	padding: 20px;
+																	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+																	overflow: hidden;
+																	width:100%;
+																	-webkit-transition: all 0.2s ease-out;
+																	-moz-transition: all 0.2s ease-out;
+																	-o-transition: all 0.2s ease-out;
+																	-ms-transition: all 0.2s ease-out;
+																}
+
+.sb-modern-skin .showbiz-title									{	 line-height:25px; color:#fff;  font-weight:400;}
+.sb-modern-skin .showbiz-title	h3{color:#fff; font-weight:300;}
+.sb-modern-skin .excerpt										{	font-size:13px; line-height:22px; color:#999;   font-weight:300;
+																	overflow: hidden; position: relative;
+																	display:none;padding-bottom:10px;
+}
+
+.sb-post-details, .sb-post-details span,
+.sb-post-details a, .sb-post-details a:visited					{	font-size:12px; line-height:11px; color:#999; font-weight:400;}
+
+.sb-post-details span{ padding-left:10px; padding-right:10px; border-right:1px solid #999; line-height:11px; float:left;}
+.sb-post-details span:first-child{padding-left:0;}
+.sb-post-details span:last-child{border-right:none;}
+.sb-readmore, .sb-readmore span,
+.sb-readmore a, .sb-readmore a:visited							{	font-size:12px; line-height:22px; color:#fff; font-weight:300; text-decoration: none;}
+.sb-modern-skin .sb-readmore									{   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+																	  filter: alpha(opacity=50);
+																	  -moz-opacity: 0.5;
+																	  -khtml-opacity: 0.5;
+																	  opacity: 0.5;
+																	  -webkit-transition: all 0.2s ease-out;
+																	  -moz-transition: all 0.2s ease-out;
+																	  -o-transition: all 0.2s ease-out;
+																	  -ms-transition: all 0.2s ease-out;
+																}
+.sb-readmore{position:relative;}
+.sb-readmore a{position:absolute; top:-8px; right:0; padding-right:15px; background:url('../img/small_right.png') right center no-repeat;}
+.showbiz ul li.sb-modern-skin:hover .detailholder				{	background:#000; background:rgba(0,0,0,1);}
+.showbiz ul li.sb-modern-skin:hover .darkhover					{	background:rgba(0,0,0,0.65);}
+
+
+.showbiz ul li.sb-modern-skin:hover .sb-readmore				{   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+																	  filter: alpha(opacity=100);
+																	  -moz-opacity: 1;
+																	  -khtml-opacity: 1;
+																	  opacity: 1;
+																	}
+
+
+/**************************************************
+	-	THE RETRO SKIN EXTRAS -
+***************************************************/
+
+
+
+.sb-retro-skin.showbiz-container								{	max-width:1210px;	min-width:300px;	}
+
+
+.sb-retro-skin .showbiz-title,
+.sb-retro-skin .showbiz-title a,
+.sb-retro-skin .showbiz-title a:visited,
+.sb-retro-skin .showbiz-title a:hover							{	text-decoration: none;
+																	font-weight:400 !important;
+
+															        font-size: 16px;
+															        font-weight: normal;
+															        color: #999;
+															        text-shadow: #fff 1px 1px 1px;
+															        margin: 0px;
+															        width: 100%;
+																    text-decoration: none !important;
+															        text-transform:none !important;
+															    }
+
+.sb-retro-skin .showbiz-description								{
+																	font-family: Arial, sans-serif;
+															        font-size: 12px;
+															        line-height: 20px;
+															        color: #777;
+															        text-shadow: #fff 1px 1px 1px;
+
+
+															    }
+
+.sb-retro-skin .showbiz-button               					{
+			                                                        padding:4px 15px !important;
+			                                                        color:#777 !important;
+			                                                        text-shadow:1px 1px 0px #fff;
+			                                                        font-size:12px; line-height:30px;
+			                                                        margin-top:10px;
+			                                                        white-space: nowrap;
+			                                                         text-decoration: none !important;
+			                                                     }
+
+.sb-retro-skin  .showbiz-navigation i							{	text-shadow:0px 1px 0px rgba(0,0,0,0.4); font-size:20px;}
+
+.sb-retro-skin  .mediaholder 									{	background-color:#fff;
+						                                            border:1px solid #cecece;
+						                                            border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;
+						                                            padding:4px;
+
+						                                        }
+
+.sb-retro-skin .hovercover										{	background:rgba(0,0,0,0.5);  }
+
+.sb-retro-skin li:hover .mediaholder img  						{	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			                                                        filter: gray; /* IE6-9 */
+			                                                        -webkit-filter: grayscale(100%);
+			                                                    }
+
+
+.sb-retro-skin	.linkicon										{
+			                                                        position:absolute; left:50%;top:50%;
+			                                                        -webkit-transform: translateZ(10);
+			                                                        -webkit-backface-visibility: hidden;
+			                                                        -webkit-perspective: 1000;
+			                                                        color:#fff; font-size:42px; font-weight:400 !important;
+
+			                                                        margin-top:-23px; margin-left:-23px;
+			                                                         background:#000; background:rgba(0,0,0,0.6);
+			                                                         border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;
+			                                                        width:46px;height:46px;
+			                                                        vertical-align: middle !important;
+			                                                        text-align: center;
+			                                                     }
+
+
+
+/**************************************************
+	-	THE RETRO DARK SKIN EXTRAS -
+***************************************************/
+
+
+
+.sb-retro-dark-skin.showbiz-container								{	max-width:1210px;	min-width:300px;	}
+
+
+.sb-retro-dark-skin .showbiz-title,
+.sb-retro-dark-skin .showbiz-title a,
+.sb-retro-dark-skin .showbiz-title a:visited,
+.sb-retro-dark-skin .showbiz-title a:hover							{	text-decoration: none;
+																		font-weight:400 !important;
+
+																        font-size: 16px;
+																        font-weight: normal;
+																        color: #ddd !important;
+																        text-shadow: #000 1px 1px 1px;
+																        margin: 0px;
+																        width: 100%;
+																        text-transform:none !important;
+																        text-decoration: none !important;
+																    }
+
+.sb-retro-dark-skin .showbiz-description						{
+																	font-family: Arial, sans-serif;
+															        font-size: 12px;
+															        line-height: 20px;
+															        color: #999;
+															        text-shadow: #000 1px 1px 1px;
+
+
+															    }
+
+.sb-retro-dark-skin .showbiz-button               					{
+			                                                             padding:4px 15px !important;
+				                                                        color: #999;
+																		text-shadow: 1px 1px 0px #000;
+																		background: #333;
+																		border: 1px solid #151515;
+																		text-decoration: none;
+																		font-weight: 400;
+				                                                        white-space: nowrap;
+				                                                        font-size:12px;
+				                                                         text-decoration: none !important;
+			                                                     }
+			                                                     }
+
+.sb-retro-dark-skin  .showbiz-navigation i							{	text-shadow:0px 1px 0px rgba(0,0,0,0.4); font-size:20px;}
+
+.sb-retro-dark-skin  .mediaholder 									{	background-color:#fff;
+							                                            border:1px solid #111;
+							                                            border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;
+							                                            padding:0px;
+
+						                                        }
+
+.sb-retro-dark-skin .hovercover										{	background:rgba(0,0,0,0.5);  }
+
+.sb-retro-dark-skin li:hover .mediaholder img  						{	 filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+			                                                        filter: gray; /* IE6-9 */
+			                                                        -webkit-filter: grayscale(100%);
+			                                                    }
+
+
+.sb-retro-dark-skin	.linkicon										{
+			                                                        position:absolute; left:50%;top:50%;
+			                                                        -webkit-transform: translateZ(10);
+			                                                        -webkit-backface-visibility: hidden;
+			                                                        -webkit-perspective: 1000;
+			                                                        color:#fff; font-size:42px; font-weight:400 !important;
+
+			                                                        margin-top:-23px; margin-left:-23px;
+			                                                         background:#000; background:rgba(0,0,0,0.6);
+			                                                         border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;
+			                                                        width:46px;height:46px;
+			                                                        vertical-align: middle !important;
+			                                                        text-align: center;
+			                                                     }

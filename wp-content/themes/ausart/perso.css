@@ -1,0 +1,94 @@
+/**
+ *
+ * NAVIVATION
+ *
+ **/
+.fixed_header #logo img {
+    height:48px;
+}
+
+ #header #logo .light {
+    display: none;
+ }
+ 
+ .header_shadow {
+    display: none;
+ }
+ 
+/** logo **/
+ #logo {
+    width:215px;
+    padding-top: 9px;
+ }
+
+#logo img {
+    float:left;
+    margin-right:15px;
+}
+
+#logo > a {
+    display: table;
+}
+
+#logo .logo-title {
+    display: table-cell;
+    vertical-align: middle;
+    font-size:21px;
+    color:#fff;
+    font-weight: 800;
+}
+
+/** header bar **/
+.header_1 .header_bar {
+    display: block;
+    background-color: #f6f6f6;
+    color:#444444;
+}
+
+.header_1 .header_bar h3 {
+    width: initial;
+    color:#444444;
+}
+
+.header_bar .pull-right.socials li a {
+    color:#444444;
+}
+
+/** Header links hover **/
+nav .menu li.current-menu-item {
+    background-color: #fff;
+}
+
+nav .menu>li:hover>a, nav .menu>li.current-menu-item > a {
+    color:#009dcd;
+}
+
+
+
+
+/**
+ *
+ * Default container
+ *
+ **/
+.dynamic_page_header p {
+    font-size: 16px;
+    color:#7c7c7c;
+    line-height: 22px;
+    text-align: left;
+}
+
+.style_3 .line_under .line_center {
+    background: #009dcd;
+}
+
+.wpb_row.standard_section  {
+    margin-bottom:0px;
+}
+
+.services_medium i {
+    margin-left: 0;
+}
+.services_medium:hover i:before {
+    color:#fff;
+};
