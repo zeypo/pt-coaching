@@ -194,7 +194,7 @@
                             <?php endforeach ?>
                         </ul>
                         <?php endif; ?>
-                        <h3 style="float:right"><?php echo __('Follow Us on', 'themeple'); ?></h3>
+                        <h3 style="float:right"><?php echo __('Me suivre:', 'themeple'); ?></h3>
                     </div>
                 </div>
             </div>

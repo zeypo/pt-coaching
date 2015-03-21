@@ -59,9 +59,6 @@ nav .menu li:hover, nav .menu li.page_item:hover {
     background-color: #fff;
 }
 
-/*nav .menu li:hover, nav .menu li.page_item:hover {
-    background-color: #009DCD;
-}*/
 
 nav .menu li.current-menu-item, nav .menu li.current_page_item {
     background-color: #fff;
@@ -79,7 +76,28 @@ header nav .menu > li > a {
     border-width: 0px;
 }
 
+/** Sticked Menu **/
+header#header.sticky_header.fixed_header #navigation {
+    margin-top: 0;
+}
 
+.fixed_header nav .menu > li:hover, .fixed_header nav .menu > li {
+    height: 69px;
+}
+
+header#header.sticky_header.fixed_header nav .menu li.current-menu-item > a, header#header.sticky_header.fixed_header nav .menu li.current_page_item > a {
+    color:#009dcd;
+}
+
+header#header.sticky_header.fixed_header nav .menu li > a {
+    display: block;
+    margin-top: 20px;
+    color:#fff;
+}
+
+header#header.sticky_header.fixed_header nav .menu li:hover > a {
+    color:#009dcd;
+}
 
 
 /**
