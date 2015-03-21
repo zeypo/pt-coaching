@@ -49,6 +49,7 @@ if(!empty($animation) && $animation != 'none') {
 	 $delay = intval($delay);
 }
 
+//if(!isset($css)) { $css = 'test'; }
 $css_class = apply_filters(VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $width.$el_class.vc_shortcode_custom_css_class($css, ' '), $this->settings['base']);
 $output .= "\n\t".'<div class="'.$css_class.'" style="'.$extra_style.'" data-animation="'.$animation.'" data-delay="'.$delay.'">';
 $output .= "\n\t\t".'<div class="wpb_wrapper">';

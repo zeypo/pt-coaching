@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  * de thèmes se servent de WP_DEBUG dans leur environnement de 
  * développement.
  */ 
-define('WP_DEBUG', true); 
+define('WP_DEBUG', false); 
 
 /* C'est tout, ne touchez pas à ce qui suit ! Bon blogging ! */
 

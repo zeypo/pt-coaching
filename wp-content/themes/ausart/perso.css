@@ -125,4 +125,26 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
 }
 .services_medium:hover i:before {
     color:#fff;
-};
+}
+
+
+
+
+
+/***************
+ *    HOME     *
+ **************/
+.home-list-full-size {
+    width: 550px;
+    color:#fff;
+    padding: 80px 0;
+    float: right;
+    font-size:16px;
+}
+
+.home-list-full-size ul {
+    list-style-type: none;
+    list-style-image : url('img/validate-li.png');
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
