@@ -69,9 +69,9 @@
                                             $output .= '<div class="content">';
 
                                                 $output .= '<h5><a href="'.get_permalink().'">'.get_the_title().'</a></h5>';
-                                                $output .= '<ul class="overlay"><li class="author">'.__('by', 'themeple').' '.get_the_author().'</li> <li class="author">|</li> <li class="comments_nr">'.get_comments_number().' '.__('Comments', 'themeple').'</li> </ul>';
+                                                $output .= '<ul class="overlay"><li class="author">'.__('par', 'themeple').' '.get_the_author().'</li> <li class="author">|</li> <li class="comments_nr">'.get_comments_number().' '.__('Commentaires', 'themeple').'</li> </ul>';
                                                 $output .= '<p>'.themeple_text_limit(get_the_excerpt(), 30).'</p>';
-                                                $output .= '<a class="readmore" href="'.get_permalink().'">'.__('Read More', 'themeple').'</a>';
+                                                $output .= '<a class="readmore" href="'.get_permalink().'">'.__('Lire plus', 'themeple').'</a>';
 
                                             $output .= '</div>';
 

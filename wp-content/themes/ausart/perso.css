@@ -148,3 +148,7 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
     margin-top: 25px;
     margin-bottom: 80px;
 }
+
+.full-content-home .second_section_over  {
+    background-size: cover;
+}

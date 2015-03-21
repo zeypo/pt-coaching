@@ -38,13 +38,13 @@
            
         } elseif($style == 'style_2' || $style == 'style_3') {
 
-           if(!empty($content)){
-           $output .='<div class="line_under"><div class="line_center"></div></div>';
-           $output .='<div class="line_under below_line"><div class="line_center"></div></div>';
-           }
-           
-           $output .= '<p class="description '.$style.'">'.do_shortcode($content).'</p>'; 
 
+          $output .='<div class="line_under"><div class="line_center"></div></div>';
+          $output .='<div class="line_under below_line"><div class="line_center"></div></div>';
+           
+          if(!empty($content)){
+             $output .= '<p class="description '.$style.'">'.do_shortcode($content).'</p>'; 
+          }
 
 
         }

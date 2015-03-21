@@ -8042,7 +8042,7 @@ vc_map( array (
 
       'type' => 'textfield',
 
-      'value' => '36',
+      'value' => '24',
 
     ),
 
@@ -8056,7 +8056,7 @@ vc_map( array (
 
       'type' => 'colorpicker',
 
-      'value' => '#222'
+      'value' => '#3d3d3d'
 
 
       ),
