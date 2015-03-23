@@ -127,6 +127,21 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
     color:#fff;
 }
 
+/* Icons */
+.ico-medium i {
+    width:100%;
+    font-size: 45px;
+}
+
+.ico-medium {
+    margin-bottom: 55px;
+}
+
+.ico-medium p {
+    text-align: justify;
+    font-size: 14px;
+}
+
 
 
 

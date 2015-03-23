@@ -3960,7 +3960,11 @@ $linecons = array(
 
                 "moon-IE" => "moon-IE",
 
-                "moon-opera" => "moon-opera"
+                "moon-opera" => "moon-opera",
+
+                "pt-particuluer" => "perso-icon-particulier",
+
+                "pt-entreprise" => "perso-icon-entreprise"
 
             );
 
