@@ -167,3 +167,17 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
 .full-content-home .second_section_over  {
     background-size: cover;
 }
+
+
+/**************
+ *   FOOTER   *
+ *************/
+footer#footer .social_widget ul li {
+    width:48px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+footer#footer .social_widget ul li img {
+    width: 100%;
+}

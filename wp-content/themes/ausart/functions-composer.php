@@ -6490,9 +6490,9 @@ vc_map( array (
 
     array (
 
-      'heading' => 'Read More Link',
+      'heading' => 'En savoir plus Link',
 
-      'description' => 'Read More link below the services small',
+      'description' => 'En savoir plus link below the services small',
 
       'param_name' => 'readmore_bool',
 
@@ -9320,7 +9320,7 @@ vc_map(array(
    
       array (
 
-            'heading' => 'Read More link:',
+            'heading' => 'En savoir plus link:',
 
             'admin_label' => false,
 

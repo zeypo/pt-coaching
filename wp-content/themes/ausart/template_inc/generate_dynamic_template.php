@@ -640,7 +640,7 @@ class GenerateDynamicTemplate{
                 $output .= '<h3><a href="'.$data['link'].'">'.$data['title'].'</a></h3>';
                 $output .= '<p>'.$data['description'].'</p>';
                 $output .= '<div class="sep_div"><span class="separator"></span></div>';
-                $output .= '<a href="'.$data['link'].'" class="read-more">Read More</a>';
+                $output .= '<a href="'.$data['link'].'" class="read-more">En savoir plus</a>';
             $output .='</div>';
 
 
@@ -2995,7 +2995,7 @@ function latest_blog_carousel($element){
         $output .= '<span class="icon_up" style="background:url(\''.$icon_up.'\') center no-repeat;"></span>';
         
 
-        $output .= '<a href="'.$link.'" class="link">'.__('Read More', 'themeple').'</a>';
+        $output .= '<a href="'.$link.'" class="link">'.__('En savoir plus', 'themeple').'</a>';
         $output .= '</div>';
         return $output; 
     }

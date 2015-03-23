@@ -912,20 +912,19 @@ class SocialWidget extends WP_Widget{
 
 
         		echo '<ul class="footer_social_icons">';
+
         			if(is_array($social_icons))
                     foreach($social_icons as $icon):
 
-
-
-        				echo '<li class="'.$icon['social'].'"><a href="'.$icon['link'].'"><i class="moon-'.$icon['social'].'"></i></a></li>';
-
-
+        				//echo '<li class="'.$icon['social'].'"><a href="'.$icon['link'].'"><i class="moon-'.$icon['social'].'"></i></a></li>';
+                        echo '<li class="'.$icon['social'].'"><a href="'.$icon['link'].'"><img src="'.get_template_directory_uri().'/img/social-icons/'.$icon['social'].'.png" ></a></li>';
 
         			endforeach;
 
-
-
-        		echo '</ul>';
+                    echo '<li><a href="1"><img src="'.get_template_directory_uri().'/img/social-icons/viadeo.png"></a></li>';
+                    echo '<li><a href="1"><img src="'.get_template_directory_uri().'/img/social-icons/rss.png"></a></li>';
+        		
+                echo '</ul>';
 
 
 
@@ -2460,7 +2459,7 @@ class MostPopularWidget extends WP_Widget{
             echo '<dl class="dl-horizontal">';
             echo '<dt><span class="date">'.get_the_time('d').'</span><span class="month"><span>'.get_the_time('M').'</span>, <span>'.get_the_time('Y').'</span></span></dt>';
 	        echo '<dd>';
-            echo '<p class="info">'.themeple_excerpt(9).'</p><a href="'.get_permalink().'" class="link">'.__("Read More", "themeple").'</a></dd></dl>';
+            echo '<p class="info">'.themeple_excerpt(9).'</p><a href="'.get_permalink().'" class="link">'.__("En savoir plus", "themeple").'</a></dd></dl>';
 	       
 
             echo '</li>';

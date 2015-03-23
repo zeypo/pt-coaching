@@ -276,7 +276,7 @@ if (have_posts()) :
                                                                                                             
                                 } ?>
 
-                                  <a href="<?php echo get_permalink() ?>" class="readm"><?php echo _('Read More', 'themeple'); ?></a>
+                                  <a href="<?php echo get_permalink() ?>" class="readm"><?php echo _('En savoir plus', 'themeple'); ?></a>
                                 <?php endif; ?>
 
                               

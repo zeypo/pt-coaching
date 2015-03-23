@@ -368,10 +368,10 @@ class themeple_slideshow{
             $output .=                                              get_the_excerpt();
             $output .= '                                            <div class="divide20"></div>';
             $output .= '                                    </p>';
-            $output .= '                                    <!-- THE POST INFOS AND READ MORE BUTTON -->';
+            $output .= '                                    <!-- THE POST INFOS AND En savoir plus BUTTON -->';
             $output .= '                                    <div class="sb-post-details leftfloat"><span class="rm15">'.$count.' '.__('Comments', 'themeple').'</span><span class="rm15">'.get_the_date().'</span></div>';
-            $output .= '                                    <div class="sb-readmore rightfloat"><a href="#">'.__('Read More', 'themeple').'</a></div>';
-            $output .= '                                    <div class="sb-clear"></div><!-- END OF POST INFOS AND READ MORE BUTTON -->';
+            $output .= '                                    <div class="sb-readmore rightfloat"><a href="#">'.__('En savoir plus', 'themeple').'</a></div>';
+            $output .= '                                    <div class="sb-clear"></div><!-- END OF POST INFOS AND En savoir plus BUTTON -->';
             $output .= '                                </div>';
 
 

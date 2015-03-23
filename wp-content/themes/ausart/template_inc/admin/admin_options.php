@@ -540,7 +540,7 @@ $page_elements[] =  array(
 
                                         "type"         => "select",
 
-                                        "subtype"      => array("Mail"=>'mail', 'Dribbble'=>'dribble', 'Flickr' => 'flickr', 'Search'=>'search', 'Delicious'=> 'delicious', 'Skype'=>'skype', 'Forrst'=>'forrst', 'Paypal'=>'paypal', 'Behance'=>'behance', 'DeviantArt'=>'deviantart', 'Digg'=>'digg', 'Vimeo'=>'vimeo', 'Yahoo'=>'yahoo', 'Youtube'=>'youtube', 'Picasa'=>'picasa', 'Reddit'=>'reddit', "Twitter" => "twitter", "Facebook" => 'facebook', "Linkedin" => 'linkedin', "GooglePlus" => "google_plus", 'Pinterest' => 'pinterest')
+                                        "subtype"      => array("Mail"=>'mail', 'Dribbble'=>'dribble', 'Flickr' => 'flickr', 'Search'=>'search', 'Delicious'=> 'delicious', 'Skype'=>'skype', 'Forrst'=>'forrst', 'Paypal'=>'paypal', 'Behance'=>'behance', 'DeviantArt'=>'deviantart', 'Digg'=>'digg', 'Vimeo'=>'vimeo', 'Yahoo'=>'yahoo', 'Youtube'=>'youtube', 'Picasa'=>'picasa', 'Reddit'=>'reddit', "Twitter" => "twitter", "Facebook" => 'facebook', "Linkedin" => 'linkedin', "GooglePlus" => "google_plus", 'Pinterest' => 'pinterest', 'RSS' => 'rss', 'Viadeo' => 'viadeo')
 
                                    ), 
 

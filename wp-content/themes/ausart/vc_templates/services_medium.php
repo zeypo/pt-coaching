@@ -105,7 +105,7 @@
 
         $output .= '<p>'.do_shortcode($data['description']).'</p>';
 
-        $output .= '<div class="read_more"><a href="'.$data['link'].'" class="readmore">'.__('Read More', 'themeple').'</a></div>';
+        $output .= '<div class="read_more"><a href="'.$data['link'].'" class="readmore">'.__('En savoir plus', 'themeple').'</a></div>';
         
         $output .= '</div>';
 

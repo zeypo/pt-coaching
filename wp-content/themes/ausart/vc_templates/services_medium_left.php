@@ -48,7 +48,7 @@
         $output .= '<dd>';
             $output .= '<h6><a href="'.$data['link'].'">'.$title.'</a></h6>';
             $output .= '<p>'.do_shortcode($data['description']).'</p>';
-            $output .= '<a href="'.$data['link'].'">'.__('Read More', 'themeple').'</a>';
+            $output .= '<a href="'.$data['link'].'">'.__('En savoir plus', 'themeple').'</a>';
         $output .= '</dd>';
         $output .= '</dl>';
         $output .= '</div>';

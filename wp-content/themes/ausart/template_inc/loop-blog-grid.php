@@ -478,7 +478,7 @@ if (have_posts()) :
                                              <?php endif; ?>       
 
                                             <div class="grid_item_footer">
-                                                <a href="<?php echo get_permalink() ?>" class="read_m"><?php _e('Read More', 'themeple') ?></a>
+                                                <a href="<?php echo get_permalink() ?>" class="read_m"><?php _e('En savoir plus', 'themeple') ?></a>
                                                 <a class="grid_comments" href="<?php echo get_permalink(); ?>"><?php echo esc_attr($count) ?></a>
                                             </div>
                                         </div>

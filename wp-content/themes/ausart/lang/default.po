@@ -1493,7 +1493,7 @@ msgstr ""
 #: ../fortis7/woocommerce/loop/add-to-cart.php:17
 #: ../fortis7/woocommerce/loop/add-to-cart.php:41
 #: ../fortis7/woocommerce/loop/add-to-cart.php:50
-msgid "Read More"
+msgid "En savoir plus"
 msgstr ""
 
 #: template_inc/generate_dynamic_template.php:3174

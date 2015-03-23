@@ -2947,7 +2947,7 @@ $elements[] =	array(
 
 									"type" 	=> "input_text",
 
-									"std" => "Read more"
+									"std" => "En savoir plus"
 
 								),
 

@@ -73,7 +73,7 @@
         $output .= '    <div class="services_small_title"><h4><a href="'.$data['link'].'">'.$title.'</a></h4><p>'.do_shortcode($data['description']).'</p></div>';
         $output .= '</div>';    
         if($readmore_bool == 'yes')
-        $output .= '<a class="readmore" href="'.$data['link'].'">'.__('Read More', 'themeple').' <i class="moon-arrow-right-2"></i></a>';
+        $output .= '<a class="readmore" href="'.$data['link'].'">'.__('En savoir plus', 'themeple').' <i class="moon-arrow-right-2"></i></a>';
         $output .= '</div>';
         echo $output;
 

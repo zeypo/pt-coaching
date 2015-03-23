@@ -264,7 +264,7 @@ if (have_posts()) :
                                     <?php endif; ?>
                                     <li><i class="moon-user"></i><?php _e('Posted by', 'themeple') ?> <?php echo get_the_author() ?>&nbsp; <i class="moon-calendar"></i> <?php _e('Posted on', 'themeple') ?> <?php the_time('d') ?> <?php the_time('M') ?>&nbsp; <i class="moon-bubble"></i> <?php echo esc_attr($count) ?> <?php _e('Comments', 'themeple') ?></li>                   
                                     <li></li> 
-                                    <a class="pull-right readm" href="<?php echo get_permalink() ?>" class="readm"><?php _e('Read More', 'themeple') ?></a>
+                                    <a class="pull-right readm" href="<?php echo get_permalink() ?>" class="readm"><?php _e('En savoir plus', 'themeple') ?></a>
                                 </ul>
                             <?php endif; ?>
             </dd>

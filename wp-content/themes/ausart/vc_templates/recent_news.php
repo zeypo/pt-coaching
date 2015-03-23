@@ -105,7 +105,7 @@
                                                         
                                                         $output .=      themeple_text_limit(get_the_excerpt(), 30);
 
-                                                        $output .= '<div class="read_right"><a href="'.get_permalink().'">'.__('Read More', 'themeple').'</a></div>';
+                                                        $output .= '<div class="read_right"><a href="'.get_permalink().'">'.__('En savoir plus', 'themeple').'</a></div>';
          
                                                         $output .= '</div>'; 
                                                     $output .= '</dd>';
@@ -138,7 +138,7 @@
          
                                                         $output .= '</div>'; 
 
-                                                        $output .= '<div class="read_more"><a href="'.get_permalink().'">'.__('Read More', 'themeple').'</a></div>';
+                                                        $output .= '<div class="read_more"><a href="'.get_permalink().'">'.__('En savoir plus', 'themeple').'</a></div>';
 
                                                     $output .= '</dd>';
                                                $output .= '</dl>'; 

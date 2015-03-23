@@ -282,7 +282,7 @@ if (have_posts()) :
                                         echo get_the_excerpt();
                                                                                                         
                             } ?>
-                            <a href="<?php echo get_permalink() ?>" class="readm"><?php echo __('Read More', 'themeple'); ?></a>
+                            <a href="<?php echo get_permalink() ?>" class="readm"><?php echo __('En savoir plus', 'themeple'); ?></a>
                             <?php endif; ?>
                                 
                             </div>
