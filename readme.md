@@ -1,3 +1,3 @@
 ###PT Coaching
 
-Eric Berlin, Copyright all right reserved.
+Eric Berlin©, all right reserved.
