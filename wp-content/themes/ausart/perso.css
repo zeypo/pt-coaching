@@ -1,5 +1,23 @@
 /**
  *
+ * HOME HACK
+ *
+ */
+.home #content > .container {
+    width: 100%;
+}
+
+.home #content > .container > .row > .span12 {
+    width: 100%;
+    margin-left: 0;
+}
+
+.home #content > .container > .row > .span12 > p {
+    display: none;
+}
+
+/**
+ *
  * NAVIVATION
  *
  **/

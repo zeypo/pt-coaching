@@ -44,7 +44,7 @@ global $themeple_config;
                 </div>
                 <?php
                 
-                wp_reset_postdata();    
+                wp_reset_postdata();
     
                 if(isset($themeple_config['current_sidebar']) && $themeple_config['current_sidebar'] == 'sidebar_right') get_sidebar();
                  
