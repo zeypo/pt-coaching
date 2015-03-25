@@ -160,6 +160,11 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
     font-size: 14px;
 }
 
+.text-block {
+    font-size: 14px;
+    color:#383838;
+}
+
 
 
 
@@ -175,7 +180,7 @@ header#header.sticky_header.fixed_header nav .menu li:hover > a {
     font-size:16px;
 }
 
-.home-list-full-size ul {
+.home-list-full-size ul, .custom-check {
     list-style-type: none;
     list-style-image : url('img/validate-li.png');
     margin-top: 25px;
